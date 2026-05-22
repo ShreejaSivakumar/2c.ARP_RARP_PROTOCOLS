@@ -8,6 +8,28 @@
 ## AIM
 To write a python program for simulating ARP protocols using TCP.
 ## ALGORITHM:
+
+# Algorithm for ARP
+
+1. Start the program.
+2. Create server and client sockets.
+3. Bind the server with port `8000` and listen for connection.
+4. Accept the client connection.
+5. Store IP address and MAC address in a dictionary.
+6. Client sends IP address and server returns corresponding MAC address.
+
+---
+
+# Algorithm for RARP
+
+1. Start the program.
+2. Create server and client sockets.
+3. Bind the server with port `9000` and listen for connection.
+4. Accept the client connection.
+5. Store MAC address and logical IP address in a dictionary.
+6. Client sends MAC address and server returns corresponding logical IP address.
+
+
 ## Client:
 1. Start the program
 2. Using socket connection is established between client and server.
